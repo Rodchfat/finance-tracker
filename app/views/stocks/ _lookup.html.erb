@@ -23,6 +23,7 @@ class: 'form-control search-box input-lg' %>
 <strong>Price:</strong> <%= @stock.price %>
 </div>
 <% end %>
+<%= render 'common/spinner' %>
 <% if @stock %>
 <div id="stock-lookup-results" class="well results-block">
 <strong>Symbol:</strong> <%= @stock.ticker %>
