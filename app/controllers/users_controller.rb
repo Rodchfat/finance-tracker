@@ -1,4 +1,4 @@
-class UserController < ApplicationController
+class UsersController < ApplicationController
    
    def my_portfolio
        
