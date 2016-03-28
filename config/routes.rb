@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   devise_for :users
-  resources :user_stocks
+  
   resources :user_stocks, except: [:show, :edit, :update]
 
 
